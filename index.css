@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+    position: relative;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    margin: auto;
+}
+
+.home-title, .guest-title {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.home-score-background {
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.guest-score-background {
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.guest-score, .home-score {
+    flex: 1 1 40%;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 127px;
+}
+
+
+button {
+    background: none;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: 26px;
+}
+
+#onepointhome-el {
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+}
+
+#twopointshome-el {
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+}
+
+#threepointshome-el {
+    width: 45px;
+    height: 45px;
+    left: 192px;
+    top: 271px;
+}
+
+#onepointguest-el {
+    width: 45px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+}
+
+#twopointsguest-el {
+    width: 45px;
+    height: 45px;
+    left: 391px;
+    top: 271px;
+}
+
+#threepointsguest-el {
+    width: 45px;
+    height: 45px;
+    left: 447px;
+    top: 271px;
+}
+
+
